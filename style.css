@@ -1,0 +1,46 @@
+* {
+    font-family: Georgia, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+.subheading {
+    font-size: 24px;
+    color: rgb(205, 179, 50);
+    background-color: rgba(0, 0, 0, 0.088);
+}
+
+li {
+    font-size: 18px;
+}
+
+.recipes {
+    color: orangered;
+}
+
+p {
+    font-weight: 600;
+}
+
+.ingredients,
+.steps {
+    color: purple;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    /* Center the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lasagna-img,
+#omelet-img {
+    width: 400px;
+}
