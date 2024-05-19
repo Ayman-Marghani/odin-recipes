@@ -1,25 +1,39 @@
-* {
+body {
     font-family: Georgia, sans-serif;
+    margin: 16px 60px;
 }
 
 .heading {
     text-align: center;
-    background-color: orange;
-    color: white;
+    color: rgb(255, 166, 0);
+    font-size: 48px;
+}
+
+.recipes {
+    margin-top: 60px;
+    margin-left:  auto;
+    margin-right:  auto;
+    text-align: center;
+}
+
+.recipe {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: antiquewhite;
+    padding: 12px;    
+}
+
+.recipe a {
+    color: rgba(0, 0, 0, 0.929);
 }
 
 .subheading {
     font-size: 24px;
     color: rgb(205, 179, 50);
     background-color: rgba(0, 0, 0, 0.088);
-}
-
-li {
-    font-size: 18px;
-}
-
-.recipes {
-    color: orangered;
 }
 
 p {
