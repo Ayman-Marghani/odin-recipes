@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, sans-serif;
-    margin: 16px 60px;
+    margin: 16px 80px;
 }
 
 .heading {
@@ -23,26 +23,22 @@ body {
     margin-right: 60px;
     margin-left: 60px;
     background-color: antiquewhite;
-    padding: 12px;    
+    padding: 12px; 
 }
 
 .recipe a {
     color: rgba(0, 0, 0, 0.929);
+    text-decoration: none;   
 }
 
 .subheading {
+    padding: 6px; 
     font-size: 24px;
-    color: rgb(205, 179, 50);
-    background-color: rgba(0, 0, 0, 0.088);
+    background-color: antiquewhite;
 }
 
-p {
+.description {
     font-weight: 600;
-}
-
-.ingredients,
-.steps {
-    color: purple;
 }
 
 img {
